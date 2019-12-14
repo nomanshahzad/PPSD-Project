@@ -214,6 +214,29 @@ int main()
     cout<<"........................................................."<<endl;
     cout<<"Enter Your Choice"<<endl;
     cin>>choice;
+    switch(choice)
+    {
+
+    case 1:
+        obj[p].reservation();
+        p++;
+        break;
+    case 2:
+        //obj[p].cancellation();
+        p++;
+        break;
+    case 3:
+        obj[p].show();
+       p++;
+        break;
+    case 4:
+    obj[p].availbility();
+    p++;
+        break;
+    case 5:
+        obj[p].exit();
+        p++;
+        break;
+    }
     }
 }
-
