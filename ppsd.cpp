@@ -79,6 +79,40 @@ bus obj1;
       cout<<"\nThere are only 32 seats available in this bus.";
 
     }
-  }
+
+
+    else
+    {
+
+        if(obj1.seats[seat]==0)
+    {
+        obj1.seats[seat]==seat;
+        cout<<"YOUR SEAT HAS BEEN RESERVED"<<endl;
     }
+    else
+    {
+        if(obj1.seats[seat]=seat)
+    {
+        cout<<"This seat is already reserved"<<endl;
+    }
+    }
+    cout<<"DO u want to reserve another seat?Y/N"<<endl;
+
+    cin>>choice;
+    m++;
+
+
+    }
+
+
+
+
+
+    }
+
+    while(choice=='Y' );
+    }
+
+
+
     }
