@@ -17,4 +17,6 @@ class bus
      int seats[160]={0};
     void reservation();
     void empty();
+     void show();
+    void availbility();
 };
