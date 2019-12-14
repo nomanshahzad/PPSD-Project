@@ -127,3 +127,46 @@ bus obj1;
 
 
   }
+
+
+
+
+
+  void bus::show()
+
+  {
+
+
+
+    char number[5];
+    int sh=0;
+
+
+
+  while(sh<=m)
+  {
+
+
+
+    cout<<"Bus no: \t"<<obj1.busn[n]
+
+    <<"\nPassenger: \t"<<obj1.passenger[n]<<"\t\tArrival time: \t"
+
+    <<obj1.arrival[n]<<"\tDeparture time:"<<obj1.depart[n]
+
+    <<"\nFrom: \t\t"<<obj1.from[n]<<"\t\tTo: \t\t"<<
+
+    obj1.to[n]<<"\n";
+
+    if(n>m)
+    {
+
+
+      cout<<"Enter correct bus no: ";
+    }
+      n++;
+    sh++;
+
+  }
+
+  }
