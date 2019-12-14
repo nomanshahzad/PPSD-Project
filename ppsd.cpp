@@ -23,3 +23,5 @@ class bus
     void cancellation();
     void exit();
 };
+bus obj1;
+    void bus :: reservation()
