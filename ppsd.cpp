@@ -195,5 +195,25 @@ void bus :: cancellation()
 
 
 }
+int main()
+{
 
+    bus obj[5];
+    int choice;
+
+    while(1)
+    {
+
+
+    cout<<"BUS RESERVATION SYSTEM"<<endl;
+    cout<<"\t"<<"1.RESERVATION"<<endl;
+    cout<<"\t"<<"2.CANCELLATION"<<endl;
+    cout<<"\t"<<"3.SHOW"<<endl;
+    cout<<"\t"<<"4.BUS AVAILABLE"<<endl;
+    cout<<"\t"<<"5.EXIT"<<endl;
+    cout<<"........................................................."<<endl;
+    cout<<"Enter Your Choice"<<endl;
+    cin>>choice;
+    }
+}
 
