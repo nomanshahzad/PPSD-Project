@@ -19,4 +19,7 @@ class bus
     void empty();
      void show();
     void availbility();
+    void position(int i);
+    void cancellation();
+    void exit();
 };
