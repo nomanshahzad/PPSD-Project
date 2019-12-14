@@ -116,3 +116,14 @@ bus obj1;
 
 
     }
+ void bus :: availbility()
+  {
+      cout<<"BUS NO "<<"\t\t"<<"NO OF SEATS"<<"t\t"<<"ARIVAL TIME"<<"\t"<<"DEPATURE TIME"<<"\t\t"<<"TO"<<"\t\t"<<"FROM"<<endl;
+      cout<<"1"<<"\t\t"<<"32"<<"\t\t"<<"1:30 PM"<<"\t\t"<<"1:35 PM "<<"\t\t"<<"LAHORE"<<"\t\t"<<"MULTAN"<<endl;
+      cout<<"2"<<"\t\t"<<"32"<<"\t\t"<<"5:30 PM"<<"\t\t"<<"6:00 PM "<<"\t\t"<<"PESHAWAR"<<"\t"<<"SARGODHA"<<endl;
+      cout<<"3"<<"\t\t"<<"32"<<"\t\t"<<"8:30 AM"<<"\t\t"<<"8:35 PM "<<"\t\t"<<"ISLAMABAD"<<"\t"<<"KARACHI"<<endl;
+      cout<<"4"<<"\t\t"<<"32"<<"\t\t"<<"8:00 AM"<<"\t\t"<<"12:00 PM "<<"\t\t"<<"MIANWALI"<<"\t"<<"FAISALABAD"<<endl;
+      cout<<"5"<<"\t\t"<<"32"<<"\t\t"<<"11:30PM"<<"\t\t"<<"5:35 PM"<<"\t\t\t"<<"MULTAN"<<"\t\t"<<"BAHAWALPUR"<<endl;
+
+
+  }
