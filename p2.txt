@@ -17,4 +17,4 @@ public:
   void position(int i);
   void cancellation();
   void exit();
-};
+}
