@@ -170,3 +170,30 @@ bus obj1;
   }
 
   }
+void bus :: cancellation()
+{
+    int no;
+    int s=0;
+
+
+    int number;
+    cout<<"Enter BUS NO"<<endl;
+    cin>>no;
+    cout<<"Enter Seat NO You Want To Cancel"<<endl;
+    cin>>number;
+    while(s<=m)
+    {
+        if(obj1.seats[s]==number)
+        {
+             obj1.seats[number]=0;
+        }
+
+        s++;
+    }
+
+
+
+
+}
+
+
